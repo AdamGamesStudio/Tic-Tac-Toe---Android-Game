@@ -1,3 +1,5 @@
+ > **WARNING!** This commit can be uncomplete. To be sure, that you can update app propertly, wait for another release.
+
 # Tic Tac Toe - Android Game
 ## PLAY
 ### How to install it on your android device, and play
