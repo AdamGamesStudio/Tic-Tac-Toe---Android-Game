@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--item
+        android:id="@+id/settingsAppInfo"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="App Info"
+        app:showAsAction="ifRoom" /-->
+
+    <item
+        android:id="@+id/settingsMenuDefaultSettings"
+        android:title="Reset all settings to default"
+        android:iconTint="@color/app_icon_background"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingsMenuAppInfo"
+        android:title="App information"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingsMenuGetNewerVersions"
+        android:title="Get newer versions"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingsMenuPrivacy"
+        android:title="Privacy policy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingsMenuFeedback"
+        android:title="Send feedback"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/settingsMenuSendFeedback"
+                android:title="Send feedback"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/settingsContactDeveloper"
+                android:title="Contact Developer"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+</menu>
